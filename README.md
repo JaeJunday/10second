@@ -4,6 +4,7 @@
 * html, css, javascript 등 최소한의 프론트엔드 스택 필요
 * 일부 javascript는 프레임워크 플랫폼에서 제공하는 애니메이션 툴 활용
 ### 2. 프레임워크 플랫폼에서 세부 폰트, 이미지 크기 조정, 폰트 추가가 어려운 문제를 해결
+* 부트스트랩 활용 빠른개발
 * css 지식 필요, gpt유료화 전까지 최대한 활용
 * font정보 : pretendard
 * 메인, 서브 color 정보 : figma tensecond 페이지 참고

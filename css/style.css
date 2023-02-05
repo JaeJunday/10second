@@ -10,6 +10,9 @@ h2{
   --bs-body-font-family: "Pretendard-Regular";
 }
 
+#logo {
+	width:200px; height: 50px;
+}
+
 /* 동영상 위에 글씨 프로팅 설정 */
 video {height: 500px; width: 500px; margin: 80px;}
-.jb-text{position:absolute; top:30%; width: 100%; font-family: "Pretendard-SemiBold";}

@@ -10,26 +10,6 @@ h2{
   --bs-body-font-family: "Pretendard-Regular";
 }
 
-/*-------- 타이핑효과 -------- */
-
-.typing-demo {
-  width: 18ch;
-  animation: typing 1s steps(22), blink .5s infinite;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 1.5px solid;
-  font-family: "Pretendard-Regular";
-  font-size: 2em;
-}
-
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-
-@keyframes blink {
-	50%{
-		border-top-color:black;
-	}
-}
+/* 동영상 위에 글씨 프로팅 설정 */
+video {height: 500px; width: 500px; margin: 80px;}
+.jb-text{position:absolute; top:30%; width: 100%; font-family: "Pretendard-SemiBold";}

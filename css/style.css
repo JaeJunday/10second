@@ -11,20 +11,13 @@
 
 /*-------- 타이핑효과 -------- */
 
-.wrapper {
-  height: 100vh;
-  /*This part is important for centering*/
-  display: grid;
-  place-items: center;
-}
-
 .typing-demo {
-  width: 22ch;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  width: 18ch;
+  animation: typing 1s steps(22), blink .5s infinite;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
+  border-right: 1.5px solid;
+  font-family: "Pretendard-Regular";
   font-size: 2em;
 }
 
@@ -33,9 +26,9 @@
     width: 0
   }
 }
-    
+
 @keyframes blink {
-  50% {
-    border-color: transparent
-  }
+	50%{
+		border-top-color:black;
+	}
 }
